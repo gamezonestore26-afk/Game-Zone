@@ -1,0 +1,5 @@
+GameZone Abasthan startup fix
+
+Prevents the app from crashing when JWT_SECRET is missing and explicitly binds the server to 0.0.0.0.
+For production, set a strong JWT_SECRET environment variable in Abasthan.
+Start command: npm start
